@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+
+.DDMenu, .DDButton {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400vh;
+}
+
+.DDButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; 
+  border: none;
+  font-family: 'Palanquin Dark', sans-serif;
+  z-index: 1;
+  background-clip: border-box;
+  width: 3rem;
+  height: 3rem;
+}
+
+
+.menuImg {
+  width: 2rem;
+  transition: ease-in 0.5s;
+}
+
+.menuImg:hover {
+  filter: invert(93%) sepia(15%) saturate(1282%) hue-rotate(85deg) brightness(103%) contrast(102%);
+}
+
+.DDMenu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 4rem;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 1.1rem;
+  transition: ease-in 0.3s;
+  background-clip: border-box;
+}
+
+.DDMenu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  max-width: 80vw;
+  height: 4rem;
+  margin-bottom: 0px;
+  
+}
+
+.DDMenu ul {
+  padding: 0px;
+  user-select: none;
+  transition: ease-out 0.5s;
+  font-weight: 500;
+}
+
+.DDMenu ul:hover {
+  color: aquamarine;
+}
+
+.hidden {
+ top:-4rem;
+}
+
+.visible {
+  top:0px;
+}
+
+@media screen and (max-width: 870px){
+  .DDMenu li {
+    flex-flow: column nowrap;
+    height: 100vh;
+    gap: 1rem;
+    line-height: 0px;
+  }
+
+  .DDMenu {
+    height: 100vh;
+  }
+
+  .hidden {
+    top:-100vh;
+   }
+}

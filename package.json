@@ -1,0 +1,34 @@
+{
+  "name": "dynamic-user-interface-interactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Appletri/dynamic-user-interface-interactions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Appletri/dynamic-user-interface-interactions/issues"
+  },
+  "homepage": "https://github.com/Appletri/dynamic-user-interface-interactions#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
+}
