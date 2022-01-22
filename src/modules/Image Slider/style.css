@@ -1,0 +1,71 @@
+.imageSlider {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 700px;
+  height: 500px;
+}
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.images {
+  display: block;
+  /* max-width: 130%;
+  max-height: 250%; */
+  max-width:100%;
+  transition: ease-in-out 0.5s;
+}
+
+
+.slideButton {
+  background-color: rgba(0, 0, 0, 0);
+  height: 120%;
+  width: 50px;
+  display: block;
+  position: absolute;
+  transition: ease-in 0.2s;
+  z-index: 2;
+}
+
+.slideButton:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* box-shadow:0px 0px 50px rgb(0, 0, 0); */
+}
+.left {
+  left: 0px;
+}
+
+.right {
+  right: 0px;
+}
+
+.dot {
+  background-color: rgba(255, 255, 255, 0);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: white 1px solid;
+}
+
+.selected {
+  background-color: white;
+  transition: ease-in-out 0.4s;
+}
+
+.scrubber {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  width: 20%;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 10px;
+  border-radius: 5px;
+  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 30px rgba(0, 0, 0, 0.5);
+}

@@ -4,8 +4,10 @@ function addDDMenuButton(location, arrayNavLinks, main) {
   const button = document.createElement('button');
   const menuImg = document.createElement('img');
   const menu = document.createElement('div');
+  const menuBGContainer = document.createElement('div');
+  const menuBG = document.createElement('div');
   const menuList = document.createElement('li');
-  button.className = 'DDButton hex';
+  button.className = 'DDButton';
   menuImg.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/120px-Hamburger_icon.svg.png';
   menuImg.className = 'menuImg';
 
@@ -26,15 +28,20 @@ function addDDMenuButton(location, arrayNavLinks, main) {
     });
   }
   createMenuItems(arrayNavLinks);
-
+  menuBG.className = 'menuBG hiddenBG';
+  menuBGContainer.className = 'menuBGContainer';
   menu.className = 'DDMenu hidden';
+  menuBGContainer.appendChild(menuBG);
+  location.appendChild(menuBGContainer);
   menu.appendChild(menuList);
   location.appendChild(menu);
   button.addEventListener('click', () => {
     if (menu.className === 'DDMenu hidden') {
       menu.className = 'DDMenu visible';
+      menuBG.className = 'menuBG visibleBG';
     } else {
       menu.className = 'DDMenu hidden';
+      menuBG.className = 'menuBG hiddenBG';
     }
   });
   button.appendChild(menuImg);
