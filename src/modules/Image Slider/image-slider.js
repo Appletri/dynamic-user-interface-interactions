@@ -50,8 +50,21 @@ function addImageSlider(location) {
   }
   function goTo(e) {
     const str = e.target.id;
-    currentImage = parseInt(str.substring('dot'.length), 10);
-    image.src = images[currentImage];
+    const targetImage = parseInt(str.substring('dot'.length), 10);
+    const threeImages = document.querySelectorAll('.images');
+    imageNext.src = images[targetImage];
+    threeImages.forEach((img) => {
+      img.style.transition = 'ease-in-out 0.5s';
+      img.style.transform = 'translateX(-100%)';
+    });
+    currentImage = targetImage;
+    setTimeout(() => {
+      establishImages();
+      threeImages.forEach((img) => {
+        img.style.transition = 'none';
+        img.style.transform = 'translateX(0%)';
+      });
+    }, 500);
     moveSelectedDot();
     timeout();
   }
@@ -72,13 +85,14 @@ function addImageSlider(location) {
   addScrubbingDots();
   function goLeft() {
     currentImage -= 1;
+    leftSlide.removeEventListener('click', goLeft);
     if (currentImage === -1) {
       currentImage = (images.length - 1);
     }
     const threeImages = document.querySelectorAll('.images');
     threeImages.forEach((img) => {
       img.style.transition = 'ease-in-out 0.5s';
-      img.style.transform = 'translateX(-100%)';
+      img.style.transform = 'translateX(100%)';
     });
     setTimeout(() => {
       establishImages();
@@ -86,12 +100,14 @@ function addImageSlider(location) {
         img.style.transition = 'none';
         img.style.transform = 'translateX(0%)';
       });
+      leftSlide.addEventListener('click', goLeft);
     }, 500);
     moveSelectedDot();
     timeout();
   }
 
   function goRight() {
+    rightSlide.removeEventListener('click', goRight);
     currentImage += 1;
     if (currentImage === images.length) {
       currentImage = 0;
@@ -107,6 +123,7 @@ function addImageSlider(location) {
         img.style.transition = 'none';
         img.style.transform = 'translateX(0%)';
       });
+      rightSlide.addEventListener('click', goRight);
     }, 500);
     moveSelectedDot();
     timeout();

@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".menuBGContainer {\\n  position: absolute;\\n  top: 0px;\\n  left: 0px;\\n  width: 100vw;\\n  height: 100vh;\\n  overflow: hidden;\\n}\\n\\n.menuBG {\\n  position: absolute;\\n  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);\\n  background-size: 400vh;\\n  top: 0px;\\n  left: 0px;\\n  width:200vw;\\n  height: 4rem;\\n  transition: ease-in 0.3s;\\n  z-index: 4;\\n}\\n\\n.DDButton {\\n  position: absolute;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  border-radius: 50%; \\n  border: none;\\n  font-family: 'Palanquin Dark', sans-serif;\\n  z-index: 5;\\n  background-clip: border-box;\\n  width: 3rem;\\n  height: 3rem;\\n  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);\\n  background-size: 400vh;\\n}\\n\\n\\n.menuImg {\\n  width: 2rem;\\n  transition: ease-out 0.3s;\\n}\\n\\n.menuImg:hover {\\n  filter: invert(93%) sepia(15%) saturate(1282%) hue-rotate(85deg) brightness(103%) contrast(102%);\\n}\\n\\n.DDMenu {\\n  position: absolute;\\n  top: 0px;\\n  left: 0px;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  width: 100vw;\\n  height: 4rem;\\n  font-family: 'Palanquin Dark', sans-serif;\\n  font-size: 1.1rem;\\n  transition: ease-in 0.3s;\\n  z-index: 5;\\n  /* background-clip: border-box; */\\n}\\n\\n.DDMenu li {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  gap: 5rem;\\n  max-width: 80vw;\\n  height: 4rem;\\n  margin-bottom: 0px;\\n  \\n}\\n\\n.DDMenu ul {\\n  padding: 0px;\\n  user-select: none;\\n  transition: ease-out 0.3s;\\n  font-weight: 500;\\n}\\n\\n.DDMenu ul:hover {\\n  color: aquamarine;\\n}\\n\\n.hidden, .hiddenBG {\\n top:-4rem;\\n}\\n\\n.visible, .visibleBG{\\n  top:0px;\\n}\\n\\n@media screen and (max-width: 870px){\\n  .DDMenu li {\\n    flex-flow: column nowrap;\\n    height: 100vh;\\n    gap: 1rem;\\n    line-height: 0px;\\n  }\\n\\n\\n  .DDMenu {\\n    height: 100vh;\\n  }\\n\\n  .hidden {\\n    top:-100vh;\\n   }\\n\\n  .visibleBG {\\n    height:100vh\\n  }\\n\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Drop-down_Menus/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".menuBGContainer {\\n  position: absolute;\\n  top: 0px;\\n  left: 0px;\\n  width: 100vw;\\n  height: 100vh;\\n  overflow: hidden;\\n}\\n\\n.menuBG {\\n  position: absolute;\\n  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);\\n  background-size: 400vh;\\n  top: 0px;\\n  left: 0px;\\n  width:200vw;\\n  height: 4rem;\\n  transition: ease-in 0.3s;\\n  z-index: 4;\\n}\\n\\n.DDButton {\\n  position: relative;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  border-radius: 50%; \\n  border: none;\\n  font-family: 'Palanquin Dark', sans-serif;\\n  z-index: 5;\\n  background-clip: border-box;\\n  width: 3rem;\\n  height: 3rem;\\n  background-color: rgba(0, 0, 0, 0);\\n  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */\\n  background-size: 400vh;\\n}\\n\\n\\n.menuImg {\\n  width: 2rem;\\n  transition: ease-out 0.3s;\\n}\\n\\n.menuImg:hover {\\n  filter: invert(93%) sepia(15%) saturate(1282%) hue-rotate(85deg) brightness(103%) contrast(102%);\\n}\\n\\n.DDMenu {\\n  position: absolute;\\n  top: 0px;\\n  left: 0px;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  width: 100vw;\\n  height: 4rem;\\n  font-family: 'Palanquin Dark', sans-serif;\\n  font-size: 1.1rem;\\n  transition: ease-in 0.4s;\\n  z-index: 5;\\n  /* background-clip: border-box; */\\n}\\n\\n.DDMenu li {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  gap: 5rem;\\n  max-width: 80vw;\\n  height: 4rem;\\n  margin-bottom: 0px;\\n  \\n}\\n\\n.DDMenu ul {\\n  padding: 0px;\\n  user-select: none;\\n  transition: ease-out 0.3s;\\n  font-weight: 500;\\n}\\n\\n.DDMenu ul:hover {\\n  color: aquamarine;\\n}\\n\\n.hidden, .hiddenBG {\\n top:-4rem;\\n}\\n\\n.visible, .visibleBG{\\n  top:0px;\\n}\\n\\n@media screen and (max-width: 811px){\\n  .DDMenu li {\\n    flex-flow: column nowrap;\\n    height: 100vh;\\n    gap: 1rem;\\n    line-height: 0px;\\n  }\\n\\n\\n  .DDMenu {\\n    height: 100vh;\\n  }\\n\\n  .hidden {\\n    top:-100vh;\\n   }\\n\\n  .visibleBG {\\n    height:100vh\\n  }\\n\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Drop-down_Menus/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,7 +27,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".imageSlider {\\n  display: flex;\\n  position: relative;\\n  justify-content: center;\\n  align-items: center;\\n  overflow: hidden;\\n  width: 700px;\\n  height: 500px;\\n}\\n.imageContainer {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  width: 100%;\\n  height: 100%;\\n}\\n.images {\\n  display: block;\\n  /* max-width: 130%;\\n  max-height: 250%; */\\n  max-width:100%;\\n  transition: ease-in-out 0.5s;\\n}\\n\\n\\n.slideButton {\\n  background-color: rgba(0, 0, 0, 0);\\n  height: 120%;\\n  width: 50px;\\n  display: block;\\n  position: absolute;\\n  transition: ease-in 0.2s;\\n  z-index: 2;\\n}\\n\\n.slideButton:hover {\\n  background-color: rgba(0, 0, 0, 0.5);\\n  /* box-shadow:0px 0px 50px rgb(0, 0, 0); */\\n}\\n.left {\\n  left: 0px;\\n}\\n\\n.right {\\n  right: 0px;\\n}\\n\\n.dot {\\n  background-color: rgba(255, 255, 255, 0);\\n  width: 5px;\\n  height: 5px;\\n  border-radius: 50%;\\n  border: white 1px solid;\\n}\\n\\n.selected {\\n  background-color: white;\\n  transition: ease-in-out 0.4s;\\n}\\n\\n.scrubber {\\n  background-color: rgba(0, 0, 0, 0.5);\\n  display: flex;\\n  width: 20%;\\n  position: absolute;\\n  justify-content: space-between;\\n  align-items: center;\\n  bottom: 10px;\\n  border-radius: 5px;\\n  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 30px rgba(0, 0, 0, 0.5);\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".imageSlider {\\n  display: flex;\\n  position: relative;\\n  justify-content: center;\\n  align-items: center;\\n  overflow: hidden;\\n  max-width: 700px;\\n  max-height: 500px;\\n  width:100vw;\\n  height:56.25vw;\\n}\\n.imageContainer {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  width: 100%;\\n  height: 100%;\\n}\\n.images {\\n  display: block;\\n  /* max-width: 130%;\\n  max-height: 250%; */\\n  max-width:100%;\\n  transition: ease-in-out 0.5s;\\n}\\n\\n\\n.slideButton {\\n  background-color: rgba(0, 0, 0, 0);\\n  height: 120%;\\n  width: 50px;\\n  display: block;\\n  position: absolute;\\n  transition: ease-in 0.2s;\\n  z-index: 2;\\n}\\n\\n.slideButton:hover {\\n  background-color: rgba(0, 0, 0, 0.5);\\n  /* box-shadow:0px 0px 50px rgb(0, 0, 0); */\\n}\\n.left {\\n  left: 0px;\\n}\\n\\n.right {\\n  right: 0px;\\n}\\n\\n.dot {\\n  background-color: rgba(255, 255, 255, 0);\\n  width: 5px;\\n  height: 5px;\\n  border-radius: 50%;\\n  border: rgba(255, 255, 255, 0.493) 1px solid;\\n  flex-shrink: 0;\\n}\\n\\n.selected {\\n  background-color: rgba(255, 255, 255, 0.527);\\n  transition: ease-in-out 0.4s;\\n}\\n\\n.scrubber {\\n  background-color: rgba(0, 0, 0, 0.5);\\n  display: flex;\\n  flex-shrink: 0;\\n  width: 100px;\\n  position: absolute;\\n  justify-content: space-between;\\n  align-items: center;\\n  bottom: 10px;\\n  border-radius: 5px;\\n  box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 30px rgba(0, 0, 0, 0.5);\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -38,7 +38,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".content {\\n  display: flex;\\n  position: relative;\\n  justify-content: center;\\n  align-items: center;\\n  width: 100vw;\\n  padding-top: 100px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html,body {\\n  margin:0;\\n  padding:0;\\n  background-color: rgb(51,51,51);\\n}\\n.content {\\n  display: flex;\\n  position: relative;\\n  justify-content: center;\\n  align-items: center;\\n  width: 100vw;\\n  /* padding-top: 100px; */\\n}\\n\\n.button-container {\\n margin:10px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -61,6 +61,96 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 "use strict";
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/modules/Image Slider/images/brandon-atchison-eBJWhlqWR54-unsplash.jpg":
+/*!***********************************************************************************!*\
+  !*** ./src/modules/Image Slider/images/brandon-atchison-eBJWhlqWR54-unsplash.jpg ***!
+  \***********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"imgs/brandon-atchison-eBJWhlqWR54-unsplash.53fd7678.webp\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/brandon-atchison-eBJWhlqWR54-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/modules/Image Slider/images/campbell-3ZUsNJhi_Ik-unsplash.jpg":
+/*!***************************************************************************!*\
+  !*** ./src/modules/Image Slider/images/campbell-3ZUsNJhi_Ik-unsplash.jpg ***!
+  \***************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"imgs/campbell-3ZUsNJhi_Ik-unsplash.65c18f18.webp\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/campbell-3ZUsNJhi_Ik-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/modules/Image Slider/images/joey-banks-YApiWyp0lqo-unsplash.jpg":
+/*!*****************************************************************************!*\
+  !*** ./src/modules/Image Slider/images/joey-banks-YApiWyp0lqo-unsplash.jpg ***!
+  \*****************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"imgs/joey-banks-YApiWyp0lqo-unsplash.9bfb7701.webp\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/joey-banks-YApiWyp0lqo-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/modules/Image Slider/images/joshua-koblin-eqW1MPinEV4-unsplash.jpg":
+/*!********************************************************************************!*\
+  !*** ./src/modules/Image Slider/images/joshua-koblin-eqW1MPinEV4-unsplash.jpg ***!
+  \********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"imgs/joshua-koblin-eqW1MPinEV4-unsplash.83bf107b.webp\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/joshua-koblin-eqW1MPinEV4-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/modules/Image Slider/images/karl-kohler-Hf1rAKkfMAg-unsplash.jpg":
+/*!******************************************************************************!*\
+  !*** ./src/modules/Image Slider/images/karl-kohler-Hf1rAKkfMAg-unsplash.jpg ***!
+  \******************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"imgs/karl-kohler-Hf1rAKkfMAg-unsplash.99f1fd21.webp\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/karl-kohler-Hf1rAKkfMAg-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/modules/Image Slider/images/marcus-p-oUBjd22gF6w-unsplash.jpg":
+/*!***************************************************************************!*\
+  !*** ./src/modules/Image Slider/images/marcus-p-oUBjd22gF6w-unsplash.jpg ***!
+  \***************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"imgs/marcus-p-oUBjd22gF6w-unsplash.571bad48.webp\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/marcus-p-oUBjd22gF6w-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/modules/Image Slider/images/olav-tvedt-6lSBynPRaAQ-unsplash.jpg":
+/*!*****************************************************************************!*\
+  !*** ./src/modules/Image Slider/images/olav-tvedt-6lSBynPRaAQ-unsplash.jpg ***!
+  \*****************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"imgs/olav-tvedt-6lSBynPRaAQ-unsplash.ca151f2b.webp\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/olav-tvedt-6lSBynPRaAQ-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/modules/Image Slider/images/peter-broomfield-m3m-lnR90uM-unsplash.jpg":
+/*!***********************************************************************************!*\
+  !*** ./src/modules/Image Slider/images/peter-broomfield-m3m-lnR90uM-unsplash.jpg ***!
+  \***********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"imgs/peter-broomfield-m3m-lnR90uM-unsplash.dc924227.webp\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/peter-broomfield-m3m-lnR90uM-unsplash.jpg?");
+
+/***/ }),
+
+/***/ "./src/modules/Image Slider/images/stefan-rodriguez-2AovfzYV3rc-unsplash.jpg":
+/*!***********************************************************************************!*\
+  !*** ./src/modules/Image Slider/images/stefan-rodriguez-2AovfzYV3rc-unsplash.jpg ***!
+  \***********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"imgs/stefan-rodriguez-2AovfzYV3rc-unsplash.4c29dd47.webp\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/stefan-rodriguez-2AovfzYV3rc-unsplash.jpg?");
 
 /***/ }),
 
@@ -170,7 +260,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_Drop_down_Menus_drop_down_menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/Drop-down Menus/drop-down-menu */ \"./src/modules/Drop-down Menus/drop-down-menu.js\");\n/* harmony import */ var _modules_Image_Slider_image_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/Image Slider/image-slider */ \"./src/modules/Image Slider/image-slider.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n\nfunction init() {\n  const DDMenuLinks = ['Home', 'Profile', 'Settings', 'Contacts', 'Gifts'];\n  const content = document.createElement('div');\n  content.className = 'content';\n  (0,_modules_Drop_down_Menus_drop_down_menu__WEBPACK_IMPORTED_MODULE_0__.addDDMenuButton)(document.body, DDMenuLinks, content);\n\n  document.body.appendChild(content);\n\n  (0,_modules_Image_Slider_image_slider__WEBPACK_IMPORTED_MODULE_1__.addImageSlider)(content);\n}\n\ninit();\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_Drop_down_Menus_drop_down_menu__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/Drop-down Menus/drop-down-menu */ \"./src/modules/Drop-down Menus/drop-down-menu.js\");\n/* harmony import */ var _modules_Image_Slider_image_slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/Image Slider/image-slider */ \"./src/modules/Image Slider/image-slider.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n// import { addMobileMenu } from './modules/Mobile Menus/mobile-menu';\n\n\nfunction init() {\n  const DDMenuLinks = ['Home', 'Profile', 'Settings', 'Contacts', 'Gifts'];\n  const content = document.createElement('div');\n  const buttonContainer = document.createElement('div');\n  buttonContainer.className = 'button-container';\n  content.className = 'content';\n  (0,_modules_Drop_down_Menus_drop_down_menu__WEBPACK_IMPORTED_MODULE_0__.addDDMenuButton)(buttonContainer, DDMenuLinks, content);\n  document.body.appendChild(buttonContainer);\n  document.body.appendChild(content);\n\n  (0,_modules_Image_Slider_image_slider__WEBPACK_IMPORTED_MODULE_1__.addImageSlider)(content);\n  // addMobileMenu(document.body);\n}\n\ninit();\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/index.js?");
 
 /***/ }),
 
@@ -192,7 +282,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addImageSlider\": () => (/* binding */ addImageSlider)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/modules/Image Slider/style.css\");\n/* eslint-disable no-use-before-define */\n/* eslint-disable no-param-reassign */\n\n\nfunction importAll(r) {\n  return r.keys().map(r);\n}\n\nfunction addImageSlider(location) {\n  const images = importAll(__webpack_require__(\"./src/modules/Image Slider/images sync \\\\.(png|jpe?g|svg)$\"));\n  const div = document.createElement('div');\n  const leftSlide = document.createElement('div');\n  const rightSlide = document.createElement('div');\n  const scrubber = document.createElement('div');\n  const imageContainer = document.createElement('div');\n  const image = document.createElement('img');\n  const imagePrev = document.createElement('img');\n  const imageNext = document.createElement('img');\n  let timeoutID = setInterval(goRight, 5000);\n  let currentImage = 0;\n\n  function moveSelectedDot() {\n    const dots = document.querySelectorAll('.dot');\n    const selectedDot = document.querySelector(`#dot${currentImage}`);\n    // eslint-disable-next-line no-return-assign, no-param-reassign\n    dots.forEach((dot) => dot.className = 'dot');\n    selectedDot.classList.add('selected');\n  }\n\n  function timeout() {\n    clearTimeout(timeoutID);\n    timeoutID = setInterval(goRight, 5000);\n  }\n\n  function changeCurrentImage(num, array, change) {\n    let tempNum = num + change;\n    if (tempNum === -1) {\n      tempNum = array.length - 1;\n    }\n    if (tempNum === array.length) {\n      tempNum = 0;\n    }\n    return tempNum;\n  }\n\n  function establishImages() {\n    imagePrev.src = images[changeCurrentImage(currentImage, images, -1)];\n    image.src = images[changeCurrentImage(currentImage, images, 0)];\n    imageNext.src = images[changeCurrentImage(currentImage, images, 1)];\n  }\n  function goTo(e) {\n    const str = e.target.id;\n    currentImage = parseInt(str.substring('dot'.length), 10);\n    image.src = images[currentImage];\n    moveSelectedDot();\n    timeout();\n  }\n\n  function addScrubbingDots() {\n    for (let i = 0; i < images.length; i += 1) {\n      const dot = document.createElement('div');\n      if (i === 0) {\n        dot.className = 'dot selected';\n      } else {\n        dot.className = 'dot';\n      }\n      scrubber.appendChild(dot);\n      dot.id = `dot${i}`;\n      dot.addEventListener('click', goTo);\n    }\n  }\n  addScrubbingDots();\n  function goLeft() {\n    currentImage -= 1;\n    if (currentImage === -1) {\n      currentImage = (images.length - 1);\n    }\n    const threeImages = document.querySelectorAll('.images');\n    threeImages.forEach((img) => {\n      img.style.transition = 'ease-in-out 0.5s';\n      img.style.transform = 'translateX(-100%)';\n    });\n    setTimeout(() => {\n      establishImages();\n      threeImages.forEach((img) => {\n        img.style.transition = 'none';\n        img.style.transform = 'translateX(0%)';\n      });\n    }, 500);\n    moveSelectedDot();\n    timeout();\n  }\n\n  function goRight() {\n    currentImage += 1;\n    if (currentImage === images.length) {\n      currentImage = 0;\n    }\n    const threeImages = document.querySelectorAll('.images');\n    threeImages.forEach((img) => {\n      img.style.transition = 'ease-in-out 0.5s';\n      img.style.transform = 'translateX(-100%)';\n    });\n    setTimeout(() => {\n      establishImages();\n      threeImages.forEach((img) => {\n        img.style.transition = 'none';\n        img.style.transform = 'translateX(0%)';\n      });\n    }, 500);\n    moveSelectedDot();\n    timeout();\n  }\n\n  leftSlide.className = 'left slideButton';\n  leftSlide.addEventListener('click', goLeft);\n  rightSlide.className = 'right slideButton';\n  rightSlide.addEventListener('click', goRight);\n  scrubber.className = 'scrubber';\n  div.className = 'imageSlider';\n  imageContainer.className = 'imageContainer';\n  imagePrev.className = 'images';\n  image.className = 'images';\n  imageNext.className = 'images';\n  establishImages();\n  div.appendChild(leftSlide);\n  div.appendChild(imageContainer);\n  imageContainer.appendChild(imagePrev);\n  imageContainer.appendChild(image);\n  imageContainer.appendChild(imageNext);\n  div.appendChild(rightSlide);\n  div.appendChild(scrubber);\n  location.appendChild(div);\n}\n\n// eslint-disable-next-line import/prefer-default-export\n\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/image-slider.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addImageSlider\": () => (/* binding */ addImageSlider)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/modules/Image Slider/style.css\");\n/* eslint-disable no-use-before-define */\n/* eslint-disable no-param-reassign */\n\n\nfunction importAll(r) {\n  return r.keys().map(r);\n}\n\nfunction addImageSlider(location) {\n  const images = importAll(__webpack_require__(\"./src/modules/Image Slider/images sync \\\\.(png|jpe?g|svg)$\"));\n  const div = document.createElement('div');\n  const leftSlide = document.createElement('div');\n  const rightSlide = document.createElement('div');\n  const scrubber = document.createElement('div');\n  const imageContainer = document.createElement('div');\n  const image = document.createElement('img');\n  const imagePrev = document.createElement('img');\n  const imageNext = document.createElement('img');\n  let timeoutID = setInterval(goRight, 5000);\n  let currentImage = 0;\n\n  function moveSelectedDot() {\n    const dots = document.querySelectorAll('.dot');\n    const selectedDot = document.querySelector(`#dot${currentImage}`);\n    // eslint-disable-next-line no-return-assign, no-param-reassign\n    dots.forEach((dot) => dot.className = 'dot');\n    selectedDot.classList.add('selected');\n  }\n\n  function timeout() {\n    clearTimeout(timeoutID);\n    timeoutID = setInterval(goRight, 5000);\n  }\n\n  function changeCurrentImage(num, array, change) {\n    let tempNum = num + change;\n    if (tempNum === -1) {\n      tempNum = array.length - 1;\n    }\n    if (tempNum === array.length) {\n      tempNum = 0;\n    }\n    return tempNum;\n  }\n\n  function establishImages() {\n    imagePrev.src = images[changeCurrentImage(currentImage, images, -1)];\n    image.src = images[changeCurrentImage(currentImage, images, 0)];\n    imageNext.src = images[changeCurrentImage(currentImage, images, 1)];\n  }\n  function goTo(e) {\n    const str = e.target.id;\n    const targetImage = parseInt(str.substring('dot'.length), 10);\n    const threeImages = document.querySelectorAll('.images');\n    imageNext.src = images[targetImage];\n    threeImages.forEach((img) => {\n      img.style.transition = 'ease-in-out 0.5s';\n      img.style.transform = 'translateX(-100%)';\n    });\n    currentImage = targetImage;\n    setTimeout(() => {\n      establishImages();\n      threeImages.forEach((img) => {\n        img.style.transition = 'none';\n        img.style.transform = 'translateX(0%)';\n      });\n    }, 500);\n    moveSelectedDot();\n    timeout();\n  }\n\n  function addScrubbingDots() {\n    for (let i = 0; i < images.length; i += 1) {\n      const dot = document.createElement('div');\n      if (i === 0) {\n        dot.className = 'dot selected';\n      } else {\n        dot.className = 'dot';\n      }\n      scrubber.appendChild(dot);\n      dot.id = `dot${i}`;\n      dot.addEventListener('click', goTo);\n    }\n  }\n  addScrubbingDots();\n  function goLeft() {\n    currentImage -= 1;\n    leftSlide.removeEventListener('click', goLeft);\n    if (currentImage === -1) {\n      currentImage = (images.length - 1);\n    }\n    const threeImages = document.querySelectorAll('.images');\n    threeImages.forEach((img) => {\n      img.style.transition = 'ease-in-out 0.5s';\n      img.style.transform = 'translateX(100%)';\n    });\n    setTimeout(() => {\n      establishImages();\n      threeImages.forEach((img) => {\n        img.style.transition = 'none';\n        img.style.transform = 'translateX(0%)';\n      });\n      leftSlide.addEventListener('click', goLeft);\n    }, 500);\n    moveSelectedDot();\n    timeout();\n  }\n\n  function goRight() {\n    rightSlide.removeEventListener('click', goRight);\n    currentImage += 1;\n    if (currentImage === images.length) {\n      currentImage = 0;\n    }\n    const threeImages = document.querySelectorAll('.images');\n    threeImages.forEach((img) => {\n      img.style.transition = 'ease-in-out 0.5s';\n      img.style.transform = 'translateX(-100%)';\n    });\n    setTimeout(() => {\n      establishImages();\n      threeImages.forEach((img) => {\n        img.style.transition = 'none';\n        img.style.transform = 'translateX(0%)';\n      });\n      rightSlide.addEventListener('click', goRight);\n    }, 500);\n    moveSelectedDot();\n    timeout();\n  }\n\n  leftSlide.className = 'left slideButton';\n  leftSlide.addEventListener('click', goLeft);\n  rightSlide.className = 'right slideButton';\n  rightSlide.addEventListener('click', goRight);\n  scrubber.className = 'scrubber';\n  div.className = 'imageSlider';\n  imageContainer.className = 'imageContainer';\n  imagePrev.className = 'images';\n  image.className = 'images';\n  imageNext.className = 'images';\n  establishImages();\n  div.appendChild(leftSlide);\n  div.appendChild(imageContainer);\n  imageContainer.appendChild(imagePrev);\n  imageContainer.appendChild(image);\n  imageContainer.appendChild(imageNext);\n  div.appendChild(rightSlide);\n  div.appendChild(scrubber);\n  location.appendChild(div);\n}\n\n// eslint-disable-next-line import/prefer-default-export\n\n\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/image-slider.js?");
 
 /***/ }),
 
@@ -203,105 +293,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("var map = {\n\t\"./brandon-atchison-eBJWhlqWR54-unsplash.jpg\": \"./src/modules/Image Slider/images/brandon-atchison-eBJWhlqWR54-unsplash.jpg\",\n\t\"./campbell-3ZUsNJhi_Ik-unsplash.jpg\": \"./src/modules/Image Slider/images/campbell-3ZUsNJhi_Ik-unsplash.jpg\",\n\t\"./joey-banks-YApiWyp0lqo-unsplash.jpg\": \"./src/modules/Image Slider/images/joey-banks-YApiWyp0lqo-unsplash.jpg\",\n\t\"./joshua-koblin-eqW1MPinEV4-unsplash.jpg\": \"./src/modules/Image Slider/images/joshua-koblin-eqW1MPinEV4-unsplash.jpg\",\n\t\"./karl-kohler-Hf1rAKkfMAg-unsplash.jpg\": \"./src/modules/Image Slider/images/karl-kohler-Hf1rAKkfMAg-unsplash.jpg\",\n\t\"./marcus-p-oUBjd22gF6w-unsplash.jpg\": \"./src/modules/Image Slider/images/marcus-p-oUBjd22gF6w-unsplash.jpg\",\n\t\"./olav-tvedt-6lSBynPRaAQ-unsplash.jpg\": \"./src/modules/Image Slider/images/olav-tvedt-6lSBynPRaAQ-unsplash.jpg\",\n\t\"./peter-broomfield-m3m-lnR90uM-unsplash.jpg\": \"./src/modules/Image Slider/images/peter-broomfield-m3m-lnR90uM-unsplash.jpg\",\n\t\"./stefan-rodriguez-2AovfzYV3rc-unsplash.jpg\": \"./src/modules/Image Slider/images/stefan-rodriguez-2AovfzYV3rc-unsplash.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/modules/Image Slider/images sync \\\\.(png|jpe?g|svg)$\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/_sync_nonrecursive_\\.(png%7Cjpe?");
-
-/***/ }),
-
-/***/ "./src/modules/Image Slider/images/brandon-atchison-eBJWhlqWR54-unsplash.jpg":
-/*!***********************************************************************************!*\
-  !*** ./src/modules/Image Slider/images/brandon-atchison-eBJWhlqWR54-unsplash.jpg ***!
-  \***********************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"1699ba0f1301d137c38b.jpg\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/brandon-atchison-eBJWhlqWR54-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./src/modules/Image Slider/images/campbell-3ZUsNJhi_Ik-unsplash.jpg":
-/*!***************************************************************************!*\
-  !*** ./src/modules/Image Slider/images/campbell-3ZUsNJhi_Ik-unsplash.jpg ***!
-  \***************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"702e58d6f97119ff425c.jpg\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/campbell-3ZUsNJhi_Ik-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./src/modules/Image Slider/images/joey-banks-YApiWyp0lqo-unsplash.jpg":
-/*!*****************************************************************************!*\
-  !*** ./src/modules/Image Slider/images/joey-banks-YApiWyp0lqo-unsplash.jpg ***!
-  \*****************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"ad3dbfa4fd3ea6e303f4.jpg\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/joey-banks-YApiWyp0lqo-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./src/modules/Image Slider/images/joshua-koblin-eqW1MPinEV4-unsplash.jpg":
-/*!********************************************************************************!*\
-  !*** ./src/modules/Image Slider/images/joshua-koblin-eqW1MPinEV4-unsplash.jpg ***!
-  \********************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"56c61b04c7138bb58855.jpg\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/joshua-koblin-eqW1MPinEV4-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./src/modules/Image Slider/images/karl-kohler-Hf1rAKkfMAg-unsplash.jpg":
-/*!******************************************************************************!*\
-  !*** ./src/modules/Image Slider/images/karl-kohler-Hf1rAKkfMAg-unsplash.jpg ***!
-  \******************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"06b272afb2aee2e7aaf3.jpg\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/karl-kohler-Hf1rAKkfMAg-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./src/modules/Image Slider/images/marcus-p-oUBjd22gF6w-unsplash.jpg":
-/*!***************************************************************************!*\
-  !*** ./src/modules/Image Slider/images/marcus-p-oUBjd22gF6w-unsplash.jpg ***!
-  \***************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"c4a97a72f7a069be9603.jpg\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/marcus-p-oUBjd22gF6w-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./src/modules/Image Slider/images/olav-tvedt-6lSBynPRaAQ-unsplash.jpg":
-/*!*****************************************************************************!*\
-  !*** ./src/modules/Image Slider/images/olav-tvedt-6lSBynPRaAQ-unsplash.jpg ***!
-  \*****************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"0d97c3bea1cc59905e55.jpg\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/olav-tvedt-6lSBynPRaAQ-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./src/modules/Image Slider/images/peter-broomfield-m3m-lnR90uM-unsplash.jpg":
-/*!***********************************************************************************!*\
-  !*** ./src/modules/Image Slider/images/peter-broomfield-m3m-lnR90uM-unsplash.jpg ***!
-  \***********************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"3d30fbfed5bb37d8f640.jpg\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/peter-broomfield-m3m-lnR90uM-unsplash.jpg?");
-
-/***/ }),
-
-/***/ "./src/modules/Image Slider/images/stefan-rodriguez-2AovfzYV3rc-unsplash.jpg":
-/*!***********************************************************************************!*\
-  !*** ./src/modules/Image Slider/images/stefan-rodriguez-2AovfzYV3rc-unsplash.jpg ***!
-  \***********************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"b8f9199718cb72f2ff6a.jpg\";\n\n//# sourceURL=webpack://dynamic-user-interface-interactions/./src/modules/Image_Slider/images/stefan-rodriguez-2AovfzYV3rc-unsplash.jpg?");
 
 /***/ })
 

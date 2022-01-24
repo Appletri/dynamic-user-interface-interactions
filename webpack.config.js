@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-      index: './src/index.js',
+    index: './src/index.js',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -16,7 +16,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
-  
   module: {
     rules: [
       {
@@ -28,8 +27,19 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'asset/resource',
+        test: /\.(png|jpe?g|webp|git|svg|)$/i,
+        use: [
+          {
+            loader: 'img-optimize-loader',
+            options: {
+              compress: {
+                // This will take more time and get smaller images.
+                webp: true,
+                disableOnDevelopment: true,
+              },
+            },
+          },
+        ],
       },
     ],
   },
